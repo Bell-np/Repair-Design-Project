@@ -1,0 +1,642 @@
+/*   Global   */
+
+
+.font {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.btn {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    border: none;
+
+    color: #ffffff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+
+/*   Header   */
+
+
+.header {
+    padding: 37px 0 36px 0;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #131313;
+}
+
+.logo {
+    margin-right: 95px;
+    padding-left: 90px;
+}
+
+.logo-size {
+    width: 180px;
+    height: 10px;
+}
+
+.navigation {
+    margin-right: 67px;
+}
+
+
+.navigation-links {
+    align-items: center;
+}
+
+.navigation-link {
+    align-items: center;
+}
+
+.navigation-link:not(:last-child) {
+    margin-right: 47px;
+}
+
+.link {
+    align-self: center;
+
+    font-size: 11px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.more-information {
+    margin-right: 90px;
+
+    align-items: center;
+}
+
+.phone-number {
+    margin-right: 45px;
+
+    width: 126px;
+
+
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #E3B873;
+}
+
+.btn-call {
+    min-width: 161px;
+    min-height: 37px;
+
+    padding: 13px 33px;
+
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*   Main   */
+
+
+.main {
+    flex-direction: column;
+}
+
+.main_home-content {
+    width: 100%;
+    min-height: 707px;
+
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Images/Images_png/image\ 4.3.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.home-position {
+    padding: 194px 628px 208px 0;
+
+    max-width: 676px;
+    max-height: 305px;
+}
+
+.home_title {
+    margin-bottom: 19px;
+
+    max-width: 504px;
+
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.strong-title {
+    color: #E3B873;
+}
+
+.home_description {
+    margin-bottom: 41px;
+
+    max-width: 504px;
+
+    font-size: 22px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+.btn-cost {
+    margin-right: 20px;
+
+    min-width: 207px;
+    min-height: 51px;
+
+    padding: 19px 42px 21px 41px;
+}
+
+.btn-statement {
+    padding: 19px 23px 21px 22px;
+
+    min-width: 207px;
+    min-height: 51px;
+
+    background: none;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    box-shadow: none;
+
+
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.main_completed-projects {
+    height: 1074px;
+
+    background-color: #131313;
+}
+
+.completed-projects_content {
+    padding: 107px 135px 0 134px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.project-info {
+    margin-right: 50px;
+    padding-top: 60px;
+
+    max-width: 460px;
+    width: 100%;
+}
+
+.info_title {
+    font-family: 'Yeseva One', cursive;
+
+    margin-bottom: 34px;
+
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+
+.info_desc {
+    margin-bottom: 42px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+}
+
+.project-info_slider {
+    margin-bottom: 44px;
+
+    flex-wrap: wrap;
+
+    max-width: 460px;
+    width: 100%;
+}
+
+.slider-item {
+    margin-top: 30px;
+
+    width: 50%;
+}
+
+.slider-title {
+    font-family: 'Yeseva One', cursive;
+
+    margin-bottom: 9px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+
+.slider-desc {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.slider-control {
+    align-self: center;
+}
+
+.slider-control::before {
+    cursor: pointer;
+    padding-right: 30px;
+    content: url(./Images/Images_svg/Group3.svg);
+}
+
+.slider-control:after {
+    cursor: pointer;
+    padding-left: 30px;
+    content: url(./Images/Images_svg/Group.svg);
+}
+
+.projects-slider {
+    margin-bottom: 45px;
+}
+
+.project {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.project:hover {
+    cursor: pointer;
+}
+
+.project:first-child {
+    border-bottom: 1px solid #E3B873;
+
+    color: #E3B873;
+}
+
+.project:not(:last-child) {
+    margin-right: 60px;
+}
+
+.main_online-control {
+    margin-top: -330px;
+    margin-bottom: 70px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-title {
+    font-family: 'Yeseva One', cursive;
+
+    margin-bottom: 13px;
+
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.icon-control {
+    height: 33px;
+    width: 28px;
+
+}
+
+.icon-af_bef {
+    position: relative;
+
+    margin-bottom: 31px;
+}
+
+.icon-af_bef::before {
+    content: '';
+
+    position: absolute;
+
+    top: 50%;
+    left: 42px;
+
+    width: 32px;
+    height: 2px;
+
+    background-color: #E3B873;
+}
+
+.icon-af_bef::after {
+    content: '';
+
+    position: absolute;
+
+    top: 50%;
+    left: -42px;
+
+    width: 32px;
+    height: 2px;
+
+    background-color: #E3B873;
+}
+
+.control_img {
+    position: relative;
+
+    margin-bottom: 98.5px;
+
+    height: 434px;
+    width: 817px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./Images/Images_png/image\ 6.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-play {
+    position: absolute;
+
+    height: 85px;
+    width: 85px;
+
+    right: 44.5%;
+    top: 42%;
+
+    border-radius: 100%;
+}
+
+.poly-pad {
+    position: relative;
+    right: -4%;
+    top: 2%
+}
+
+.control-desc {
+    position: relative;
+
+    height: 131px;
+    width: 681px;
+
+    margin-bottom: 91.5px;
+
+    text-align: center;
+
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #363636;
+}
+
+.control-desc::before {
+    content: ' ';
+
+    position: absolute;
+
+    top: -30px;
+    left: 45%;
+    width: 55px;
+    height: 2px;
+
+    background-color: #E3B873;
+}
+
+.online_form {
+    max-width: 769px;
+    height: 51px;
+
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section {
+    margin-right: 58px;
+
+    flex-direction: column;
+}
+
+.from-desc {
+    font-size: 13px;
+    line-height: 21px;
+
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.form-input-text {
+    outline: none;
+
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #363636;
+}
+
+.form-btn {
+    padding: 20px 75px 15px 76px;
+
+    width: 200px;
+    height: 51px;
+
+    font-size: 13px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.form-check {
+    padding-top: 35px;
+}
+
+.checkbox-desc {
+
+    font-size: 14px;
+    line-height: 163.68%;
+
+
+    color: #181818;
+}
+
+.main-types-of-repair {
+    font-family: 'Yeseva One', cursive;
+
+    padding-top: 90px;
+    margin-bottom: 124px;
+
+    grid-template-rows: 67px 608px;
+    grid-template-columns: 392px 392px 392px;
+
+    grid-column-gap: 30px;
+    grid-row-gap: 53px;
+
+    justify-content: center;
+}
+
+.types-of-repair {
+
+    grid-column-start: 1;
+    grid-column-end: span 3;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.types-of-repair_title {
+    margin-bottom: 13px;
+
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #181818;
+}
+
+.repair-aft-bef {
+    position: relative;
+}
+
+.repair-aft-bef::before {
+    content: '';
+
+    position: absolute;
+
+    top: 50%;
+    left: 42px;
+
+    width: 32px;
+    height: 2px;
+
+    background-color: #E3B873;
+}
+
+.repair-aft-bef::after {
+    content: '';
+
+    position: absolute;
+
+    top: 50%;
+    left: -42px;
+
+    width: 32px;
+    height: 2px;
+
+    background-color: #E3B873;
+}
+
+.types-of-repair_card {
+    grid-column-start: 0;
+    grid-column-end: span 1;
+}
+
+.types-of-repair_card {
+    flex-direction: column;
+
+    align-items: center;
+
+    max-width: 392px;
+}
+
+.card-info {
+    box-sizing: border-box;
+
+    margin-top: -130px;
+
+    padding: 25px 29px 49px 34px;
+
+    width: 330px;
+    min-height: 286px;
+
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.card-info_title {
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #363636;
+}
+
+.card-info_points {
+    list-style-type: disc;
+    padding-inline-start: 1ch;
+}
+
+.point {
+    font-size: 13px;
+    line-height: 27px;
+
+    color: #959595;
+}
+
+.card-btn {
+    font-family: 'Yeseva One', cursive;
+
+    margin-top: -27px;
+    margin-left: 31px;
+    padding: 17px 16px;
+
+    height: 54px;
+    width: 228px;
+
+    align-self: flex-start;
+    
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
