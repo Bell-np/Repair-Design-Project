@@ -665,6 +665,10 @@
     background-repeat: no-repeat;
 }
 
+.main_leave-request {
+    margin-bottom: 242px;
+}
+
 .paragraphs {
     padding: 117px 76px 55px 276px;
 
@@ -748,7 +752,7 @@
     align-self: flex-end;
 }
 
-.help-save{
+.help-save {
     position: relative;
 
     align-items: center;
@@ -767,10 +771,96 @@
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 
-.main_your-fantasies{
-    height: 1017px;
+.main_your-fantasies {
+    min-height: 1017px;
+    width: 100%;
 }
 
-.main_your-fantasies_background{
-    
+.main_your-fantasies_background {
+    box-sizing: content-box;
+    align-self: center;
+
+    height: 864px;
+
+
+    justify-content: space-around;
+
+    position: relative;
+    width: 100%;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url(./Images/Images_png/image\ 5.1.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.your-fantasies_title-and-links {
+    position: relative;
+
+    min-height: 630px;
+    padding: 108px 0 97px 0;
+    margin-right: 185px;
+}
+
+.your-fantasies_title {
+    font-family: 'Yeseva One', cursive;
+
+    padding-bottom: 48px;
+
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+
+.your-fantasies_links {}
+
+.your-fantasies_link {
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+}
+
+.your-fantasies_link:first-child {
+    border-bottom: 1px solid #E3B873;
+
+    color: #E3B873;
+}
+
+.your-fantasies_link:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.left-images {
+    position: relative;
+
+    margin-right: 43px;
+
+    bottom: 45px;
+
+    flex-direction: column;
+
+    max-width: 354px;
+}
+
+.left-img:first-child {
+    margin-bottom: 40px;
+}
+
+.right-images {
+    position: relative;
+
+    bottom: 120px;
+
+    flex-direction: column;
+
+    max-width: 354px;
+}
+
+.right-img:first-child {
+    margin-bottom: 40px;
 }
