@@ -815,8 +815,6 @@
     color: #E3B873;
 }
 
-.your-fantasies_links {}
-
 .your-fantasies_link {
     font-size: 20px;
     line-height: 28px;
@@ -863,4 +861,133 @@
 
 .right-img:first-child {
     margin-bottom: 40px;
+}
+
+
+
+.main_our-clients {
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.our-clients_title {
+    font-family: 'Yeseva One', cursive;
+
+    margin-bottom: 15px;
+
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #181818;
+
+}
+
+.our-clients-logo {
+    margin-bottom: 25px;
+
+    height: 28px;
+    width: 114px;
+
+}
+
+.our-clients_desc {
+    margin-bottom: 40px;
+
+    font-size: 18px;
+    line-height: 29px;
+    text-align: justify;
+
+    color: #363636;
+
+}
+
+.list-clients {
+    grid-template-columns: 376px 376px 376px;
+    grid-template-rows: 457px;
+
+    grid-column-gap: 54px;
+}
+
+.client {
+    height: 100%;
+    width: 100%;
+}
+
+.client-title {
+    padding: 24px 79px 0 15px;
+
+    margin-bottom: 22px;
+
+    align-items: center;
+}
+
+.client-avatar {
+    margin-right: 23px;
+
+    border-radius: 100%;
+}
+
+.client-name {
+    font-family: 'Yeseva One', cursive;
+
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #181818;
+}
+
+.client-desc {
+    padding: 0 32px 0 20px;
+
+    margin-bottom: 40px;
+
+    text-align: justify;
+
+    font-size: 13px;
+    line-height: 23px;
+
+
+    color: #959595;
+}
+
+.client-card_data {
+    height: 54px;
+    width: 294px;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.card-m {
+    font-family: 'Yeseva One', cursive;
+    padding: 0 14px 0 15px;
+
+    align-self: center;
+
+    font-size: 18px;
+    line-height: 23px;
+
+    border-right: 0.75px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.card_data_img-p {
+    padding: 0 15px 0 17px;
+}
+
+.card-d {
+    font-family: 'Yeseva One', cursive;
+
+    align-self: center;
+
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #FFFFFF;
 }
