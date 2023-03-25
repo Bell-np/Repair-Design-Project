@@ -863,9 +863,9 @@
     margin-bottom: 40px;
 }
 
-
-
 .main_our-clients {
+    margin-bottom: 132px;
+
     flex-direction: column;
 
     align-items: center;
@@ -990,4 +990,138 @@
     line-height: 23px;
 
     color: #FFFFFF;
+}
+
+.main_have-any-questions {
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+}
+
+.any-questions_form {
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 445px;
+    width: 883px;
+
+    background: #181818;
+}
+
+.any-questions_title {
+    font-family: 'Yeseva One', cursive;
+
+    padding-top: 34px;
+    margin-bottom: 46px;
+
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.name_and_phone{
+    margin-bottom: 50px;
+}
+
+.any-questions_desc {
+    flex-direction: column;
+
+    font-size: 13px;
+    line-height: 21px;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.any-questions_input-text {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+    background-color: #181818;
+}
+
+.any-questions_m-r{
+    margin-right: 58px;
+}
+
+.any-questions_check{
+    padding-top: 47px;
+    margin-bottom: 40px;
+}
+
+.desc-max-width{
+    width: 516px;
+}
+
+.desc-max-width2{
+    width: 231px;
+}
+
+.any-questions_desc-btn{
+    padding: 20px 54px;
+
+    margin-bottom: 34px;
+
+    width: 200px;
+}
+
+.main-map{
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: -222px;
+
+    height: 953px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url(./Images/Images_png/image\ 7.2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.map-title{
+    padding-top: 275px;
+    margin-bottom: 26px;
+    
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #E3B873;
+}
+
+.map-link{
+    margin-bottom: 33px;
+}
+
+.link-m-r{
+    margin-right: 15px;
+}
+
+.map{
+    padding-bottom: 40px;
+}
+
+
+
+/*   Footer   */
+
+
+
+.footer{
+    height: 133px;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #0f0f0f;
 }
