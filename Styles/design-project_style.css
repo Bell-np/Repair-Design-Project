@@ -5,6 +5,10 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.font2 {
+    font-family: 'Yeseva One', cursive;
+}
+
 .flex {
     display: flex;
 }
@@ -14,18 +18,17 @@
 }
 
 .btn {
-    background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
     border-radius: 2px;
     border: none;
 
     color: #ffffff;
+    background: #E3B873;
 }
 
 .btn:hover {
     cursor: pointer;
 }
-
 
 .label {
     cursor: pointer;
@@ -152,7 +155,7 @@
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Images/Images_png/image\ 4.3.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Images_png/image\ 4.3.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -287,7 +290,6 @@
 }
 
 .slider-title {
-    font-family: 'Yeseva One', cursive;
 
     margin-bottom: 9px;
 
@@ -314,13 +316,13 @@
 .slider-control::before {
     cursor: pointer;
     padding-right: 30px;
-    content: url(./Images/Images_svg/Group3.svg);
+    content: url(../Images/Images_svg/Group3.svg);
 }
 
 .slider-control:after {
     cursor: pointer;
     padding-left: 30px;
-    content: url(./Images/Images_svg/Group.svg);
+    content: url(../Images/Images_svg/Group.svg);
 }
 
 .projects-slider {
@@ -360,7 +362,6 @@
 }
 
 .control-title {
-    font-family: 'Yeseva One', cursive;
 
     margin-bottom: 13px;
 
@@ -420,7 +421,7 @@
     height: 434px;
     width: 817px;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./Images/Images_png/image\ 6.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Images/Images_png/image\ 6.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -488,7 +489,7 @@
     align-items: center;
 }
 
-.online_form-mob{
+.online_form-mob {
     display: none;
 }
 
@@ -531,7 +532,6 @@
 }
 
 .main-types-of-repair {
-    font-family: 'Yeseva One', cursive;
 
     padding-top: 90px;
     margin-bottom: 124px;
@@ -642,7 +642,6 @@
 }
 
 .card-btn {
-    font-family: 'Yeseva One', cursive;
 
     margin-top: -27px;
     margin-left: 31px;
@@ -666,7 +665,7 @@
 .paragraphs-background {
     margin-right: 131px;
 
-    background-image: url(./Images/Images_png/image\ 6.1.png);
+    background-image: url(../Images/Images_png/image\ 6.1.png);
     background-repeat: no-repeat;
 }
 
@@ -795,7 +794,7 @@
     position: relative;
     width: 100%;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url(./Images/Images_png/image\ 5.1.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url(../Images/Images_png/image\ 5.1.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -811,7 +810,6 @@
 }
 
 .your-fantasies_title {
-    font-family: 'Yeseva One', cursive;
 
     padding-bottom: 48px;
 
@@ -822,15 +820,15 @@
     color: #E3B873;
 }
 
-.img-mob{
+.img-mob {
     display: none;
 }
 
-.img-mob-l{
+.img-mob-l {
     display: none;
 }
 
-.img-mob-r{
+.img-mob-r {
     display: none;
 }
 
@@ -891,8 +889,6 @@
 }
 
 .our-clients_title {
-    font-family: 'Yeseva One', cursive;
-
     margin-bottom: 15px;
 
     font-size: 20px;
@@ -950,8 +946,6 @@
 }
 
 .client-name {
-    font-family: 'Yeseva One', cursive;
-
     font-size: 18px;
     line-height: 23px;
 
@@ -984,7 +978,6 @@
 }
 
 .card-m {
-    font-family: 'Yeseva One', cursive;
     padding: 0 14px 0 15px;
 
     align-self: center;
@@ -1001,8 +994,6 @@
 }
 
 .card-d {
-    font-family: 'Yeseva One', cursive;
-
     align-self: center;
 
     font-size: 18px;
@@ -1014,6 +1005,7 @@
 .main_have-any-questions {
     position: relative;
     z-index: 1;
+
     justify-content: center;
 }
 
@@ -1029,8 +1021,6 @@
 }
 
 .any-questions_title {
-    font-family: 'Yeseva One', cursive;
-
     padding-top: 34px;
     margin-bottom: 46px;
 
@@ -1057,7 +1047,6 @@
 .any-questions_input-text {
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    ;
 
     font-weight: 400;
     font-size: 14px;
@@ -1100,7 +1089,7 @@
 
     height: 953px;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url(./Images/Images_png/image\ 7.2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url(../Images/Images_png/image\ 7.2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1132,9 +1121,7 @@
 }
 
 
-
 /*   Footer   */
-
 
 
 .footer {
