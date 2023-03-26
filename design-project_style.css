@@ -267,6 +267,10 @@
 
 }
 
+.img-1010 {
+    display: none;
+}
+
 .project-info_slider {
     margin-bottom: 44px;
 
@@ -484,6 +488,10 @@
     align-items: center;
 }
 
+.online_form-mob{
+    display: none;
+}
+
 .form-section {
     margin-right: 58px;
 
@@ -593,9 +601,7 @@
 .types-of-repair_card {
     grid-column-start: 0;
     grid-column-end: span 1;
-}
 
-.types-of-repair_card {
     flex-direction: column;
 
     align-items: center;
@@ -607,7 +613,6 @@
     box-sizing: border-box;
 
     margin-top: -130px;
-
     padding: 25px 29px 49px 34px;
 
     width: 330px;
@@ -666,6 +671,8 @@
 }
 
 .main_leave-request {
+    justify-content: center;
+
     margin-bottom: 242px;
 }
 
@@ -780,7 +787,7 @@
     box-sizing: content-box;
     align-self: center;
 
-    height: 864px;
+    min-height: 864px;
 
 
     justify-content: space-around;
@@ -813,6 +820,18 @@
     text-transform: uppercase;
 
     color: #E3B873;
+}
+
+.img-mob{
+    display: none;
+}
+
+.img-mob-l{
+    display: none;
+}
+
+.img-mob-r{
+    display: none;
 }
 
 .your-fantasies_link {
@@ -1022,7 +1041,7 @@
     color: #FFFFFF;
 }
 
-.name_and_phone{
+.name_and_phone {
     margin-bottom: 50px;
 }
 
@@ -1037,7 +1056,8 @@
 
 .any-questions_input-text {
     border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    ;
 
     font-weight: 400;
     font-size: 14px;
@@ -1047,24 +1067,24 @@
     background-color: #181818;
 }
 
-.any-questions_m-r{
+.any-questions_m-r {
     margin-right: 58px;
 }
 
-.any-questions_check{
+.any-questions_check {
     padding-top: 47px;
     margin-bottom: 40px;
 }
 
-.desc-max-width{
+.desc-max-width {
     width: 516px;
 }
 
-.desc-max-width2{
+.desc-max-width2 {
     width: 231px;
 }
 
-.any-questions_desc-btn{
+.any-questions_desc-btn {
     padding: 20px 54px;
 
     margin-bottom: 34px;
@@ -1072,7 +1092,7 @@
     width: 200px;
 }
 
-.main-map{
+.main-map {
     align-items: center;
     flex-direction: column;
 
@@ -1087,27 +1107,27 @@
     background-size: cover;
 }
 
-.map-title{
+.map-title {
     padding-top: 275px;
     margin-bottom: 26px;
-    
+
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
-    
+
     color: #E3B873;
 }
 
-.map-link{
+.map-link {
     margin-bottom: 33px;
 }
 
-.link-m-r{
+.link-m-r {
     margin-right: 15px;
 }
 
-.map{
+.map {
     padding-bottom: 40px;
 }
 
@@ -1117,7 +1137,7 @@
 
 
 
-.footer{
+.footer {
     height: 133px;
 
     justify-content: center;

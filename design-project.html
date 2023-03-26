@@ -14,12 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./design-project_style.css">
+    <link rel="stylesheet" href="./media-request.css">
     <link rel="stylesheet" href="./reset.css">
 
     <title>Repair Design Project</title>
 </head>
 
-<body class="font">
+<body class="body font">
     <header class="header flex">
         <span class="logo">
             <a href="./design-project.html">
@@ -27,26 +28,26 @@
             </a>
         </span>
         <nav class="navigation">
-            <li class="navigation-links flex">
-                <ul class="navigation-link">
+            <ul class="navigation-links flex">
+                <li class="navigation-link">
                     <a href="#" class="link">HOME</a>
-                </ul>
-                <ul class="navigation-link">
+                </li>
+                <li class="navigation-link">
                     <a href="#" class="link">PROJECTS</a>
-                </ul>
-                <ul class="navigation-link">
+                </li>
+                <li class="navigation-link">
                     <a href="#" class="link">MEASUREMENT</a>
-                </ul>
-                <ul class="navigation-link">
+                </li>
+                <li class="navigation-link">
                     <a href="#" class="link">TEAM</a>
-                </ul>
-                <ul class="navigation-link">
+                </li>
+                <li class="navigation-link">
                     <a href="#" class="link">REVIEWS</a>
-                </ul>
-                <ul class="navigation-link">
+                </li>
+                <li class="navigation-link">
                     <a href="#" class="link">CONTACTS</a>
-                </ul>
-            </li>
+                </li>
+            </ul>
         </nav>
         <span class="more-information flex">
             <a href="tel:+79287683239" class="phone-number">+7 (928) 768-32-39</a>
@@ -72,7 +73,14 @@
                     <p class="info_desc">Only a small part of the work performed by our company is presented on the
                         site. For 14 years on
                         in the construction
-                        market we have made happy more than 1000 families</p>
+                        market we have made happy more than 1000 families
+                    </p>
+                    <div class="img-1010">
+                        <img src="./Images/Images_svg/Group 8.10.svg" alt="" class="img-1010-l">
+                        <img src="./Images/Images_svg/Group 8.11.svg" alt="" class="img-1010-r">
+                    </div>
+                    
+                
                     <ul class="project-info_slider flex">
                         <li class="slider-item">
                             <h4 class="slider-title">City:</h4>
@@ -99,7 +107,7 @@
                         <li class="project">Sochi Thieves</li>
                         <li class="project">Rostov-on-Don Patriotic</li>
                     </ul>
-                    <img src="./Images/Images_png/image 2.1.png" alt="Rostov-On-Don, Admiral">
+                    <img src="./Images/Images_png/image 2.1.png" alt="Rostov-On-Don, Admiral" class="Rostov-On-Don">
                 </div>
             </div>
         </section>
@@ -127,7 +135,7 @@
                     </label>
                 </div>
                 <div class="form-section flex">
-                    <label class="from-desc">
+                    <label class="form-desc">
                         Phone
                         <input onfocus="this.value=''" type="text" value="Your phone number:" class="form-input-text">
                     </label>
@@ -138,6 +146,26 @@
                     <span class="fake"></span>
                     <span class="text">I agree to the processing of personal data.</span>
                 </label>
+            </form>
+            <form action="" class="online_form-mob">
+                <div class="form-section-mob flex">
+                    <label class="form-desc-mob">
+                        Name
+                        <input onfocus="this.value=''" type="text" value="What is your name:" class="form-input-text-mob">
+                    </label>
+                </div>
+                <div class="form-section-mob flex">
+                    <label class="form-desc-mob">
+                        Phone
+                        <input onfocus="this.value=''" type="text" value="Your phone number:" class="form-input-text-mob">
+                    </label>
+                </div>
+                <label class="label-mob">
+                    <input type="checkbox" class="checkbox">
+                    <span class="fake"></span>
+                    <span class="text-mob">I agree to the processing of personal data.</span>
+                </label>
+                <input type="submit" value="Submit" class="form-btn-mob btn">
             </form>
         </section>
         <section class="main-types-of-repair grid">
@@ -150,7 +178,7 @@
                 </span>
             </div>
             <article class="types-of-repair_card flex">
-                <img src="./Images/Images_png/room1.jpg" alt="first room">
+                <img src="./Images/Images_png/room1.jpg" alt="first room" class="article-img">
                 <div class="card-info">
                     <h5 class="card-info_title">
                         Redecorating
@@ -182,7 +210,7 @@
                 <button class="card-btn btn">from 900 rub / m2</button>
             </article>
             <article class="types-of-repair_card flex">
-                <img src="./Images/Images_png/room2.png" alt="second room">
+                <img src="./Images/Images_png/room2.png" alt="second room" class="article-img">
                 <div class="card-info">
                     <h5 class="card-info_title">
                         Overhaul
@@ -214,7 +242,7 @@
                 <button class="card-btn btn">from 1800 rub / m2</button>
             </article>
             <article class="types-of-repair_card flex">
-                <img src="./Images/Images_png/room3.jpg" alt="third room">
+                <img src="./Images/Images_png/room3.jpg" alt="third room" class="article-img">
                 <div class="card-info">
                     <h5 class="card-info_title">
                         Designer Repair
@@ -305,6 +333,10 @@
                         We realize your <br>
                         wildest fantasies
                     </h4>
+                    <img src="./Images/Images_png/image 5.3.png" alt="" class="img-mob">
+                    <img src="./Images/Images_svg/Group 8.10.svg" alt="" class="img-mob-l">
+                    <img src="./Images/Images_svg/Group 8.11.svg" alt="" class="img-mob-r">
+                    
                     <ul class="your-fantasies_links">
                         <li class="your-fantasies_link">American classic</li>
                         <li class="your-fantasies_link">Empire</li>
@@ -468,7 +500,7 @@
                 </a>
             </div>
             <div class="map">
-                <img src="./Images/Images_png/image 7.1.png" alt="map">
+                <img src="./Images/Images_png/image 7.1.png" alt="map" class="map-w">
             </div>
         </section>
     </main>
